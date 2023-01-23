@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  width: 392px;
+
+  padding: 33px;
+
+  .title {
+    display: flex;
+
+    & > img {
+      margin-right: 40px;
+    }
+
+    .name {
+
+      h3 {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 36px;
+
+        width: 229px;
+
+        margin: 0;
+        margin-bottom: -20px;
+  
+        opacity: 0.78;
+      }
+
+      span {
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFA537;
+        opacity: 0.55;
+      }
+    }
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 30px;
+
+    margin: 0;
+    margin: 30px 0;
+
+    color: #fff;
+
+    opacity: 0.55;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-between;
+
+    .items {
+
+      img {
+        cursor: pointer;
+      }
+
+      img:nth-child(1) {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  &:hover {
+    border-radius: 15px;
+  
+    background: url('../../../../public/img/backgroundActiveCard.png') no-repeat;
+  }
+}
+

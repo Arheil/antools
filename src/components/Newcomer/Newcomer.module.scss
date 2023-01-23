@@ -1,0 +1,44 @@
+.newcomer {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1224px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  margin: 0 auto;
+
+  &Info {
+    width: 427px;
+
+    h2 {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 130%;
+
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+
+      color: rgba(255, 255, 255, 0.55);
+    }
+
+    button {
+      background-color: #FF6E30;
+      color: #fff;
+      opacity: 1;
+
+      margin-top: 60px;
+    }
+  }
+
+  &Item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+}

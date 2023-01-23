@@ -1,0 +1,26 @@
+[
+  {
+    "img": "img/zeplin-icon.svg",
+    "name": "Zeplin",
+    "pay": "Free & Paid",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "img": "img/jb_phpstorm-icon.svg",
+    "name": "PHPStorm",
+    "pay": "Free",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "img": "img/jb_toolbox_app-icon.svg",
+    "name": "ToolBox",
+    "pay": "Free",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "img": "img/procreate-icon.svg",
+    "name": "Procreate",
+    "pay": "Paid",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

@@ -1,0 +1,16 @@
+.mySwiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1224px;
+
+  .slide {
+    width: 849px;
+    height: 492px;
+
+    margin: 0 auto;
+  }
+
+  .swiperButtonNext { color: #FF6E30; }
+}

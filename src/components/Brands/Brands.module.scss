@@ -1,0 +1,31 @@
+.brands {
+  display: flex;
+  flex-direction: column;
+
+  width: 1224px;
+
+  padding: 55px 82px;
+
+  margin: 0 auto;
+  margin-top: 200px;
+
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background: url("../../../public/img/backgroundBrands.png") no-repeat 50%;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  &Logo {
+    width: 1059px;
+
+    padding-top: 55px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}

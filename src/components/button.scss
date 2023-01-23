@@ -1,0 +1,27 @@
+.btn {
+  padding: 12px 28px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #1e1e1e;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #fff;
+
+  opacity: 0.55;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #FF6E30;
+
+    opacity: 1;
+
+    color: #fff;
+  }
+}

@@ -1,0 +1,33 @@
+.join {
+  width: 553px;
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 240px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.55);
+
+    margin-bottom: 30px;
+  }
+}
+
